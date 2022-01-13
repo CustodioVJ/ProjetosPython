@@ -8,7 +8,7 @@ c_path = input("You're at a cross road. Where do you want to go? Type 'L' for Le
 if c_path != "l".lower():
       print("Sorry, you just die, pal. Game Over. :'( ")
 else:
-      lake = input("'You\'ve come to a lake. There is an island in the middle of the lake. Type 'W' to wait for a boat or 'S' to swim across it.\n")
+      lake = input("You've come to a lake. There is an island in the middle of the lake. Type 'W' to wait for a boat or 'S' to swim across it.\n")
 
 if lake != "w".lower():
       print("Sorry, you just die, pal. Game Over. :'( ")
